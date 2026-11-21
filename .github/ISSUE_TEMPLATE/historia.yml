@@ -1,0 +1,31 @@
+name: História
+description: O que o usuário precisa conseguir fazer. As tarefas ficam dentro dela.
+title: "[História] "
+body:
+  - type: textarea
+    id: quem-e-o-que
+    attributes:
+      label: Quem precisa e o que precisa conseguir fazer
+      description: "Exemplo: o atendente precisa ver as faturas em aberto na ficha do cliente."
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Por que isso importa
+    validations:
+      required: true
+  - type: textarea
+    id: pronto
+    attributes:
+      label: Como saber que ficou pronto
+      description: Liste o que precisa estar funcionando.
+    validations:
+      required: true
+  - type: textarea
+    id: tarefas
+    attributes:
+      label: Tarefas
+      description: As tarefas entram aqui como tarefas-filhas, depois de criadas.
+    validations:
+      required: false
