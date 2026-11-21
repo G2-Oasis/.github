@@ -1,0 +1,40 @@
+name: Tarefa
+description: Um trabalho específico, com começo e fim.
+title: "[Tarefa] "
+body:
+  - type: textarea
+    id: o-que-muda
+    attributes:
+      label: O que muda
+      description: Diga o que precisa ser feito, em uma ou duas frases.
+    validations:
+      required: true
+  - type: textarea
+    id: pronto
+    attributes:
+      label: Como saber que ficou pronto
+      description: O que alguém precisa ver funcionando para considerar a tarefa concluída.
+    validations:
+      required: true
+  - type: input
+    id: horas
+    attributes:
+      label: Horas previstas
+      description: Só o número de horas.
+      placeholder: "8"
+    validations:
+      required: true
+  - type: input
+    id: componente
+    attributes:
+      label: Componente
+      description: Código do componente, se houver.
+    validations:
+      required: false
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Links, telas ou qualquer informação que ajude quem vai fazer.
+    validations:
+      required: false
