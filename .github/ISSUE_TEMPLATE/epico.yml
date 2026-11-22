@@ -1,0 +1,33 @@
+name: Épico
+description: Um objetivo grande, que reúne várias histórias.
+title: "[Épico] "
+type: Épico
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: "O que muda para o cliente ou para o negócio quando o épico terminar."
+    validations:
+      required: true
+  - type: input
+    id: componente
+    attributes:
+      label: Componente ou jornada
+      description: "Exemplo: TMFC035, ou a jornada de venda."
+    validations:
+      required: false
+  - type: textarea
+    id: pronto
+    attributes:
+      label: Como saber que terminou
+      description: Liste o que precisa estar entregue.
+    validations:
+      required: true
+  - type: textarea
+    id: historias
+    attributes:
+      label: Histórias
+      description: As histórias entram aqui como tarefas-filhas, depois de criadas.
+    validations:
+      required: false
