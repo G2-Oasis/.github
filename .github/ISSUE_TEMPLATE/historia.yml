@@ -1,4 +1,5 @@
 name: História
+type: História
 description: O que o usuário precisa conseguir fazer. As tarefas ficam dentro dela.
 title: "[História] "
 body:
