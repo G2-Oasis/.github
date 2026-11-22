@@ -1,4 +1,5 @@
 name: Tarefa
+type: Task
 description: Um trabalho específico, com começo e fim.
 title: "[Tarefa] "
 body:
