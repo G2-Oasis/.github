@@ -1,4 +1,5 @@
 name: Bug
+type: Bug
 description: Algo que não funciona como deveria.
 title: "[Bug] "
 body:
